@@ -75,11 +75,14 @@ nav h3{
 }
 /* start main part */
 /* Pillars Section */
+.Pillars{
+    margin: 80px 0px;
+}
 .pillars-tittle{
     color: #0E0E0E;
     font-size: 40px;
     font-weight: bold;
-    margin-top: 80px;
+    /* margin-top: 80px; */
     margin-bottom: 32px;
 }
 .pillars-content{
@@ -124,13 +127,14 @@ nav h3{
     color: #0E0E0E;
     font-size: 40px;
     font-weight: bold;
-    margin-top: 80px;
+    /* margin-top: 80px; */
 }
 .vision-content{
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 24px;
+    margin-bottom: 32px;
 }
 .vision-items{
     display: flex;
