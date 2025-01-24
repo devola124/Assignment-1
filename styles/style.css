@@ -193,6 +193,98 @@ nav h3{
     font-weight: 400;
     line-height: 24px;
 }
-  
+/* quote section */
+.quote{
+    background-image: url(../assets/quote-bg.png);
+    background-position: center start;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 48px 24px;
+    border-radius: 16px;
+    margin-bottom: 80px;
+}
+.quote-description{
+    color: #0E0E0E;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px
+}
+.advisor{
+    color: #0E0E0E;
+    font-size: 20px;
+    font-weight: 500;
+}
+.advisor-tittle{
+    color: #0E0E0E;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* recent section */
+
+.recent{
+    margin-bottom: 80px;
+}
+.recent-deep-div{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.recent-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 24px;
+    padding: 48px;
+}
+
+.recent-tittle{
+    color: #0E0E0E;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+.recent-items .one{
+    display: flex;
+    gap: 10px;
+}
+.recent-items .one .date{
+    color: #0E0E0E;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+.recent-items .one .time{
+    color: #0E0E0E;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+.recent-description{
+    color: #0E0E0E;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 7px;
+    margin-bottom: 32px;
+}
+.readMore-btn{
+    color: #fff;
+    background-color: #006A50;
+    padding: 13px 26px;
+    border: none;
+    border-radius: 8px;
+}
+.recent-content img{
+    border-radius: 24px;
+}
+
 
 
