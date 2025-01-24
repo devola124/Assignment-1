@@ -48,7 +48,7 @@ nav h3{
     font-weight: 500;
     padding: 15px 30px;
     border: 1px solid #006A50;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 /* Banner */
@@ -58,7 +58,7 @@ nav h3{
     align-items: center;
     gap: 64px;
     background-color: #C6E4D6;
-    border-radius: 10px;
+    border-radius: 24px;
     padding: 80px 60px;
 }
 .banner-tag{
@@ -91,13 +91,13 @@ nav h3{
 .pillars-items{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 24px;
     padding: 24px;
-    width: 300px;
-    height: 244px;
+    /* width: 300px;
+    height: 244px; */
     background-color: #fff;
     border: 1px solid #ddd;
-    border-radius: 10px;
+    border-radius: 16px;
     /* box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.09); */
 }
 .self{
@@ -112,6 +112,82 @@ nav h3{
     color: #0E0E0E;
     font-size: 16px;
     font-weight: 300;
+    line-height: 24px;
+}
+/* vision part */
+.vision{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.vision-tittle{
+    color: #0E0E0E;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 80px;
+}
+.vision-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+.vision-items{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 32px;
+    border-radius: 16px;
+}
+.item-1{
+    background-color:#88aff3;
+}
+.item-2{
+    background-color: #C6E4D6;
+}
+.item-3{
+    background-color: #F7EBCF;
+}
+.btn-1{
+    align-self: flex-start;
+    background-color: #5490F5;
+    border: none;
+    padding: 11px 20px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+.btn-2{
+    align-self: flex-start;
+    background-color: #09A15C;
+    border: none;
+    padding: 11px 20px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+.btn-3{
+    align-self: flex-start;
+    background-color: #FFC239;
+    border: none;
+    padding: 11px 20px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+.vision-topic{
+    color: #0E0E0E;
+    font-size: 20px;
+    font-weight: bold;
+}
+.vision-description{
+    color: #0E0E0E;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
 }
   
 
